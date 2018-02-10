@@ -179,7 +179,7 @@
     }
 
     .mobile-menu li a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .mobile-menu li:last-child a {
@@ -383,7 +383,7 @@
         font-family: 'Montserrat';
         font-weight: normal;
         font-size: 17px;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .viewed-item-r {
@@ -446,7 +446,7 @@
     }
 
     .header-lang a.langs-item:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .header-lang a.langs-item.en {
@@ -471,7 +471,7 @@
     }
 
     .header-curency:hover a {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .curency-drop {
@@ -749,7 +749,7 @@
 
     .mp-slider-lbl-b {
         margin-bottom: 22px;
-        color: #ff7200;
+        color: #0789C1;
         font-family: 'Lato';
         font-size: 39px;
         text-transform: uppercase;
@@ -1238,7 +1238,7 @@
         height: 34px;
         padding-top: 3px;
         cursor: pointer;
-        background: #ff7200;
+        background: #0789C1;
         border-radius: 2px;
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
@@ -1254,7 +1254,7 @@
     }
 
     .authorize-btn:hover {
-        background: #ff8f35;
+        background: #0C69A7;
     }
 
     .authorize-forget-pass {
@@ -1271,7 +1271,7 @@
     .header-viewed:hover .header-viewed-btn,
     .header-curency a:hover,
     .header-nav ul li a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .header-nav ul li {
@@ -1306,7 +1306,7 @@
     }
 
     .header-nav ul li:hover>a {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .header-nav ul ul li {
@@ -1426,7 +1426,7 @@
         display: block;
         font-weight: normal;
         margin-bottom: 3px;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .special-offer-foot-r span {
@@ -1453,7 +1453,7 @@
     .weather-block {
         width: 345px;
         height: 344px;
-        background: url(../img/paris.jpg) left top no-repeat;
+        background: url('http://sparrow-html.weblionmedia.com/img/paris.jpg') left top no-repeat;
         background-size: 345px 344px;
         ;
     }
@@ -1538,7 +1538,7 @@
         width: 102px;
         height: 24px;
         padding-top: 10px;
-        background: #ff7200;
+        background: #0789C1;
         border-radius: 2px;
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
@@ -1635,12 +1635,12 @@
     }
 
     .ui-datepicker td a:hover {
-        background: #ff7200 !important;
+        background: #0789C1 !important;
         color: #fff;
     }
 
     .ui-state-default.ui-state-active {
-        background: #ff7200 !important;
+        background: #0789C1 !important;
         color: #fff;
     }
 
@@ -1824,7 +1824,7 @@
     }
 
     .srch-btn:hover {
-        background: #ff8f35;
+        background: #0C69A7;
     }
 
     .srch-lbl {
@@ -2021,7 +2021,7 @@
     }
 
     .offer-slider-i.catalog-i .cat-list-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .catalog-i .offer-slider-l {
@@ -2283,7 +2283,7 @@
     }
 
     .cat-list-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .cat-list-item .cat-list-btn {
@@ -2317,7 +2317,7 @@
     }
 
     .cat-list-item-rb .cat-list-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .cat-list-item-rb .offer-slider-link a {
@@ -2557,7 +2557,7 @@
         font-family: 'Open Sans';
         font-size: 24px;
         font-weight: 600;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .mp-popular-row {
@@ -2629,7 +2629,7 @@
         display: block;
         font-size: 20px;
         margin-bottom: 6px;
-        color: #ff7200;
+        color: #0789C1;
         line-height: 15px;
     }
 
@@ -2790,7 +2790,7 @@
     }
 
     .regions-nav ul li a.chosen {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .regions-nav ul li:first-child {
@@ -2820,7 +2820,7 @@
     }
 
     .regions-nav ul li a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .reasons-item-a {
@@ -3019,7 +3019,7 @@
         font-family: 'Montserrat';
         font-weight: normal;
         font-size: 17px;
-        color: #ff7200;
+        color: #0789C1;
         text-transform: uppercase;
     }
 
@@ -3092,7 +3092,7 @@
         display: block;
         border: 0px;
         cursor: pointer;
-        width: 85px;
+        width: 100%;
         height: 32px;
         padding-bottom: 1px;
         color: #fff;
@@ -3101,13 +3101,13 @@
         border-radius: 2px;
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
-        background: #ff7200;
+        background: #0789C1;
         font-size: 11px;
         text-transform: uppercase;
     }
 
     .footer-subscribe-btn:hover {
-        background: #f98528;
+        background: #E5EE0F;
     }
 
     .footer-b {
@@ -3292,7 +3292,7 @@
     }
 
     .flat-adv-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .pop-destinations {
@@ -3387,7 +3387,7 @@
         width: 100%;
         height: 500px;
         margin-bottom: 93px;
-        background: url(../img/theme-teaser.jpg) center top no-repeat;
+        background: url('http://sparrow-html.weblionmedia.com/img/theme-teaser.jpg') center top no-repeat;
     }
 
     .theme-teaser .wrapper-padding {
@@ -3446,7 +3446,7 @@
     }
 
     .theme-teaser-c:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .theme-teaser-padding {
@@ -3470,7 +3470,7 @@
 
     .pagination a:hover,
     .pagination a.active {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .two-colls {
@@ -4012,7 +4012,7 @@
         line-height: 23px;
         font-weight: normal;
         font-size: 20px;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .flt-i-price-b {
@@ -4077,7 +4077,7 @@
     }
 
     .side-time .ui-widget-header {
-        background: #ff7200;
+        background: #0789C1;
     }
 
     .side-lbl-a {
@@ -4176,7 +4176,7 @@
         top: -3px;
         height: 100%;
         width: 100%;
-        border-top: 3px solid #ff7200;
+        border-top: 3px solid #0789C1;
         border-left: 3px solid transparent;
         border-bottom: 3px solid transparent;
         border-right: 3px solid transparent;
@@ -4748,7 +4748,7 @@
         font-family: 'Montserrat';
         font-weight: normal;
         font-size: 17px;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .h-liked-comment {
@@ -4903,8 +4903,8 @@
     }
 
     .reasons-rating .bx-pager-item a.active {
-        background: #ff7200;
-        border-color: #ff7200;
+        background: #0789C1;
+        border-color: #0789C1;
     }
 
     .reasons-rating .bx-controls-direction {
@@ -5155,10 +5155,10 @@
 
     .book-btn {
         display: block;
-        background: #ff7200;
+        background: #0789C1;
         height: 41px;
         margin-bottom: 15px;
-        border: 1px solid #ff7200;
+        border: 1px solid #0789C1;
         border-radius: 3px;
     }
 
@@ -5302,7 +5302,7 @@
 
     .content-tabs-head ul li a.active {
         background: #fff;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .content-tabs-head.last-item ul li:last-child a.active {
@@ -5486,14 +5486,14 @@
         margin: 21px 0px 0px 0px;
         width: 34px;
         height: 34px;
-        background: #ff7200 url(../img/rates-srch.png) left top no-repeat;
+        background: #0789C1 url(../img/rates-srch.png) left top no-repeat;
         border-radius: 2px;
         border: 0px;
         cursor: pointer;
     }
 
     .rates-srch:hover {
-        background: #ff8f35 url(../img/rates-srch.png) left top no-repeat;
+        background: #0C69A7 url(../img/rates-srch.png) left top no-repeat;
     }
 
     .rates-devider {
@@ -5567,7 +5567,7 @@
     }
 
     .available-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .available-price {
@@ -5575,7 +5575,7 @@
         margin-top: -1px;
         font-weight: 600;
         font-size: 20px;
-        color: #ff7200;
+        color: #0789C1;
         margin-bottom: 4px;
     }
 
@@ -5613,7 +5613,7 @@
     }
 
     .availabe-more:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .preferences-list,
@@ -6051,7 +6051,7 @@
     }
 
     .guest-reviews-more:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .review-form {
@@ -6166,7 +6166,7 @@
         font-size: 11px;
         font-family: 'Raleway';
         font-weight: 700;
-        background: #ff7200;
+        background: #0789C1;
         display: block;
         border-radius: 2px;
     }
@@ -6256,7 +6256,7 @@
     }
 
     .todo-btn:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .todo-row .cat-list-content-p {
@@ -6592,7 +6592,7 @@
     .payment-tabs a.active {
         border-color: #ebebeb;
         background: #fff;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .payment-tabs a.active span {
@@ -6659,7 +6659,7 @@
         margin-top: 24px;
         width: 189px;
         height: 40px;
-        background: #ff7200;
+        background: #0789C1;
         color: #fff;
         text-transform: uppercase;
         border: 0px;
@@ -6753,7 +6753,7 @@
     }
 
     .inpt-comment-r a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .checkout-coll {
@@ -6894,7 +6894,7 @@
     .chk-total-r {
         float: right;
         font-size: 15px;
-        color: #ff7200;
+        color: #0789C1;
         font-weight: normal;
         font-family: 'Montserrat';
     }
@@ -7084,7 +7084,7 @@
     .complete-txt-link a {
         font-size: 13px;
         text-decoration: none;
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .flight-image {
@@ -7258,7 +7258,7 @@
     }
 
     .sex-type.chosen {
-        background: #ff7200;
+        background: #0789C1;
         color: #fff;
         border-color: #e37012;
         -webkit-box-shadow: inset 0px 1px 2px 0px rgba(50, 50, 50, 0.2);
@@ -7507,13 +7507,13 @@
         font-size: 11px;
         font-family: 'Montserrat';
         font-weight: normal;
-        background: #ff7200;
+        background: #0789C1;
         text-transform: uppercase;
         cursor: pointer;
     }
 
     .contacts-send:hover {
-        background: #ff8f35;
+        background: #0C69A7;
     }
 
     .inner-page {
@@ -7594,7 +7594,7 @@
         margin: 9px 10px 0px 0px;
         float: left;
         border-radius: 1000px;
-        background: #ff7200;
+        background: #0789C1;
         color: #fff;
         text-align: center;
         font-size: 21px;
@@ -7654,7 +7654,7 @@
         width: 0px;
         height: 4px;
         border-radius: 100px;
-        background: #ff7200;
+        background: #0789C1;
     }
 
     .tree-colls-i:nth-child(2) {
@@ -8483,7 +8483,7 @@
     }
 
     .portfolio-more-btn a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .p-item-page {
@@ -8892,7 +8892,7 @@
     }
 
     .blog-post-qoute {
-        border-left: 2px solid #ff7200;
+        border-left: 2px solid #0789C1;
         padding: 0px 0px 0px 17px;
     }
 
@@ -8961,7 +8961,7 @@
     }
 
     .mejs-controls .mejs-time-rail .mejs-time-current {
-        background: #ff7200;
+        background: #0789C1;
         border: 0px;
     }
 
@@ -9014,7 +9014,7 @@
     }
 
     .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-        background: #ff7200;
+        background: #0789C1;
         top: 13px;
         height: 6px;
     }
@@ -9191,7 +9191,7 @@
     }
 
     .tags-row a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .blog-masonry {
@@ -9327,11 +9327,11 @@
     }
 
     .blog-more a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .text-quote {
-        border-left: 2px solid #ff7200;
+        border-left: 2px solid #0789C1;
         margin-bottom: 12px;
         padding-left: 16px;
     }
@@ -9364,7 +9364,7 @@
     }
 
     .post-tags a:hover {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .blog-comments {
@@ -9407,7 +9407,7 @@
 
     .blog-comment-info a {
         text-decoration: none;
-        color: #ff7200;
+        color: #0789C1;
         margin-left: 14px;
     }
 
@@ -9432,7 +9432,7 @@
         padding-top: 2px;
         width: 124px;
         height: 36px;
-        background: #ff7200;
+        background: #0789C1;
         color: #fff;
         text-transform: uppercase;
         border: 0px;
@@ -9621,7 +9621,7 @@
     }
 
     .blockqoute-tp-a {
-        border-left: 2px solid #ff7200;
+        border-left: 2px solid #0789C1;
         margin-bottom: 12px;
         padding-left: 17px;
     }
@@ -9662,7 +9662,7 @@
 
     .hightile-a {
         display: inline-block;
-        background: #ff7200;
+        background: #0789C1;
         color: #fff;
         border-radius: 2px;
         padding-left: 6px;
@@ -9851,7 +9851,7 @@
     }
 
     .tabs-type-a .tabs-nav a.active {
-        color: #ff7200;
+        color: #0789C1;
     }
 
     .tabs-content-i {
@@ -9920,7 +9920,7 @@
 
     .tabs-type-b .tabs-nav a.active,
     .tabs-type-b .tabs-nav a.active:hover {
-        color: #ff7200;
+        color: #0789C1;
         border: 1px solid #e3e3e3;
         border-right: 0px;
     }
@@ -9971,8 +9971,8 @@
     }
 
     .message-box-c {
-        border: 1px solid #ff7200;
-        background: #ff7200;
+        border: 1px solid #0789C1;
+        background: #0789C1;
         margin-bottom: 12px;
         border-radius: 2px;
         font-weight: 500;
