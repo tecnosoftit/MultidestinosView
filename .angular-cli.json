@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.png"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,9 +19,23 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "./assets/css/jquery-ui.css",
+        "./assets/css/owl.carousel.css",
+        "./assets/css/idangerous.swiper.css",
+        "./assets/css/style.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/js/jquery-1.11.3.min.js",
+        "./assets/js/idangerous.swiper.js",
+        "./assets/js/slideInit.js",
+        "./assets/js/jqeury.appear.js",
+        "./assets/js/owl.carousel.min.js",
+        "./assets/js/bxSlider.js",
+        "./assets/js/custom.select.js",
+        "./assets/js/jquery-ui.min.js",
+        "./assets/js/jquery.formstyler.js",
+        "./assets/js/script.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
