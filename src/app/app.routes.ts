@@ -14,4 +14,21 @@ export const ROUTES: Routes = [
         path: 'Hotels',
         loadChildren: './hotels/hotels.module#HotelsModule',
     },
+    {
+        path: 'Contact',
+        loadChildren: './contact/contact.module#ContactModule',
+  },
+  {
+        path: 'About',
+        loadChildren: './about/about.module#AboutModule',
+  },
+  {
+        path: 'Plans',
+        loadChildren: './plans/plan.module#PlansModule',
+  },
+  {
+    path: 'Flight',
+        loadChildren: './flight/flight.module#FlightModule',
+  },
+
 ];

@@ -1,0 +1,860 @@
+<div class="main-cont">
+    <div class="body-wrapper">
+        <div class="wrapper-padding">
+            <div class="page-head">
+                <div class="page-title">Flights - <span>Alternative</span></div>
+                <div class="breadcrumbs">
+                    <a href="#">Home</a> / <span>Flight Alternative page</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="two-colls">
+                <div class="two-colls-left">
+
+                    <div class="srch-results-lbl fly-in">
+                        <span>2,435 results found.</span>
+                    </div>
+
+                    <div class="side-block fly-in">
+                        <div class="side-block-search">
+                            <div class="page-search-p">
+                                <!-- // -->
+                                <div class="srch-tab-line">
+                                    <div class="srch-tab-left">
+                                        <label>From</label>
+                                        <div class="input-a"><input type="text" value="" placeholder="Vienna"></div>
+                                    </div>
+                                    <div class="srch-tab-right">
+                                        <label>To</label>
+                                        <div class="input-a"><input type="text" value="" placeholder="London"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <!-- \\ -->
+                                <!-- // -->
+                                <div class="srch-tab-line">
+                                    <div class="srch-tab-left">
+                                        <label>Departure</label>
+                                        <div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+                                    </div>
+                                    <div class="srch-tab-right">
+                                        <label>Return</label>
+                                        <div class="input-a"><input type="text" value="" class="date-inpt" placeholder="mm/dd/yy"> <span class="date-icon"></span></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <!-- \\ -->
+                                <div class="srch-tab-line no-margin-bottom">
+                                    <div class="srch-tab-left transformed">
+                                        <label>Passengers</label>
+                                        <div class="select-wrapper">
+                                            <select class="custom-select">
+            <option>--</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+                                        </div>
+                                    </div>
+                                    <div class="srch-tab-right transformed">
+                                        <label>Class</label>
+                                        <div class="select-wrapper">
+                                            <select class="custom-select">
+            <option>--</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <!-- \\ -->
+
+                                <button class="srch-btn">Search</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- // side // -->
+                    <div class="side-block fly-in">
+                        <div class="side-price">
+                            <div class="side-padding">
+                                <div class="side-lbl">Price</div>
+                                <div class="price-ranger">
+                                    <div id="slider-range"></div>
+                                </div>
+                                <div class="price-ammounts">
+                                    <input type="text" id="ammount-from" readonly>
+                                    <input type="text" id="ammount-to" readonly>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- \\ side \\ -->
+
+                    <!-- // side // -->
+                    <div class="side-block fly-in">
+                        <div class="side-stars">
+                            <div class="side-padding">
+                                <div class="side-lbl">Airlines</div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Lufthansa (30)
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            United Airlines (18)
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Air berlin (8)
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Swiss (2)
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Turkish Airlines (1)
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Air france (1)
+          </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- \\ side \\ -->
+                    <!-- // side // -->
+                    <div class="side-block fly-in">
+                        <div class="side-stars">
+                            <div class="side-padding">
+                                <div class="side-lbl">Flight type</div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Business
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            First class
+          </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+            <input type="checkbox" value="" />
+            Economy
+          </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- \\ side \\ -->
+                    <!-- // side // -->
+                    <div class="side-block fly-in">
+                        <div class="side-stars">
+                            <div class="side-padding">
+                                <div class="side-lbl">Flight times</div>
+
+                                <div class="side-time-holder">
+                                    <div class="side-lbl-a">Departure flight</div>
+                                    <div class="side-time">
+                                        <div class="time-ammounts">
+                                            departure time <span class="time-from">0</span>:00 up to <span class="time-to">0</span>:00
+                                        </div>
+                                        <div class="time-ranger">
+                                            <div class="time-range"></div>
+                                        </div>
+                                    </div>
+                                    <div class="side-time">
+                                        <div class="time-ammounts">
+                                            arrival time <span class="time-from">0</span>:00 up to <span class="time-to">0</span>:00
+                                        </div>
+                                        <div class="time-ranger">
+                                            <div class="time-range"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="side-time-holder">
+                                    <div class="side-lbl-a">return flight</div>
+                                    <div class="side-time">
+                                        <div class="time-ammounts">
+                                            departure time <span class="time-from">0</span>:00 up to <span class="time-to">0</span>:00
+                                        </div>
+                                        <div class="time-ranger">
+                                            <div class="time-range"></div>
+                                        </div>
+                                    </div>
+                                    <div class="side-time">
+                                        <div class="time-ammounts">
+                                            arrival time <span class="time-from">0</span>:00 up to <span class="time-to">0</span>:00
+                                        </div>
+                                        <div class="time-ranger">
+                                            <div class="time-range"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- \\ side \\ -->
+
+                </div>
+                <div class="two-colls-right">
+                    <div class="two-colls-right-b">
+                        <div class="padding">
+
+                            <div class="catalog-head fly-in">
+                                <label>Sort results by:</label>
+                                <div class="search-select">
+                                    <select>
+              <option>Name</option>
+              <option>Name</option>
+              <option>Name</option>
+              <option>Name</option>
+              <option>Name</option>
+            </select>
+                                </div>
+                                <div class="search-select">
+                                    <select>
+              <option>Price</option>
+              <option>Price</option>
+              <option>Price</option>
+              <option>Price</option>
+              <option>Price</option>
+            </select>
+                                </div>
+                                <div class="search-select">
+                                    <select>
+              <option>Duration</option>
+              <option>Duration</option>
+              <option>Duration</option>
+              <option>Duration</option>
+              <option>Duration</option>
+            </select>
+                                </div>
+                                <a href="#" class="show-list"></a>
+                                <a class="show-thumbs chosen" href="#"></a>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="catalog-row alternative">
+
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-01.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">634.24$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-02.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">950.50$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-03.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">620.00$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-04.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">995.14$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-05.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">634.24$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-01.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">700.50$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-02.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">620.00$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+                                <!-- // alt-flight // -->
+                                <div class="alt-flight fly-in">
+                                    <div class="alt-flight-a">
+                                        <div class="alt-flight-l">
+                                            <div class="alt-flight-lb">
+                                                <div class="alt-center">
+                                                    <div class="alt-center-l">
+                                                        <div class="alt-center-lp">
+                                                            <div class="alt-logo">
+                                                                <a href="#"><img alt="" src="http://sparrow-html.weblionmedia.com/img/fl-transp-03.png"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="alt-center-c">
+                                                        <div class="alt-center-cb">
+                                                            <div class="alt-center-cp">
+                                                                <div class="alt-lbl">New York - Vienna</div>
+                                                                <div class="alt-info"><b>06.01.15</b> One way trip</div>
+                                                                <div class="alt-devider"></div>
+                                                                <div class="flight-line-b">
+                                                                    <b>details</b>
+                                                                    <span>Only 2 seats!</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-departure">
+                                                                    <b>Departure</b>
+                                                                    <span>14:12</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-arrival">
+                                                                    <b>Arrival</b>
+                                                                    <span>17:50</span>
+                                                                </div>
+                                                                <div class="alt-data-i alt-time">
+                                                                    <b>time</b>
+                                                                    <span>14H 50M</span>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="alt-flight-lr">
+                                        <div class="padding">
+                                            <div class="flt-i-price">980.24$</div>
+                                            <div class="flt-i-price-b">avg/person</div>
+                                            <a class="cat-list-btn" href="#">select now</a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="alt-details">
+                                        <div class="alt-details-i">
+                                            <b>Connections</b>
+                                            <span>Berlin, Germany</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>14:20 John F Kennedy (JFK)</b>
+                                            <span>USA</span>
+                                        </div>
+                                        <div class="alt-details-i">
+                                            <b>Flight LO-98 Boeing 787-8 (Jet) Economy</b>
+                                            <span>Operated by Austrian Airlines</span>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <!-- \\ alt-flight \\ -->
+
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div class="pagination">
+                                <a class="active" href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br class="clear" />
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+    </div>
+</div>

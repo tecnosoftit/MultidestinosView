@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { ROUTES } from './home.routes';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
+import { SearcherComponent } from './searcher/searcher.component';
+
 
 @NgModule({
   imports: [
@@ -9,6 +11,7 @@ import { HomeComponent } from './home.component';
   ],
   declarations: [
     HomeComponent,
+    SearcherComponent,
   ]
 })
 
