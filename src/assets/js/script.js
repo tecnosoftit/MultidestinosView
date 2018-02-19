@@ -407,3 +407,21 @@ function init_validation(target) {
 	
 	if(target) {return validate(target);}
 }
+
+(function(){
+	var app = angular.module("Multidestinos",[]);
+	app.controller("CompanyControler",['$scope', '$http',function($scope,$http){
+		$scope.search = function(){
+			$http.get("http://localhost:58252/api/generalpurpose/getcompanyinformation/ariesik").then(onCompany, onError)
+		};
+
+		var onCompany = function(response){
+			$scope.company = response.data;
+			$http.get($scope.company.repos_url).then(onRepos, onError)
+		};
+
+		var onError = function(reason){
+			$scope.error = "There is an error";
+		};
+	}]);
+}());

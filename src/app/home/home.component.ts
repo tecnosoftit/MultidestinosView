@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import { Http } from '@angular/http/src/http';
+//import { get } from 'https';
 
 declare var Jquery: any;
 declare var $: any;
@@ -8,9 +10,28 @@ declare var $: any;
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+
 export class HomeComponent implements OnInit {
-  
-  constructor() { }
+  //title = 'app works!';
+  //private apiUrl: 'http://localhost:58252/api/generalpurpose/getcompanyinformation/aries';
+  //data: any = {};
+
+constructor(/*private http: Http*/) {
+    //this.getCompanyProperties();
+   }
+     
+  //getData(){
+    //return this.http.get(this.apiUrl)
+      //.map((res: Response) => res.json());
+  //}
+
+  //getCompanyProperties(){
+    //this.getData().subscribe(data => {
+      //console.log(data);
+      //this.data = data;
+    //})
+  //}
 
   ngOnInit() {    
     this.BuildSlider();
